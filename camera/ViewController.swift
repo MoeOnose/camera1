@@ -8,7 +8,7 @@
 
 import UIKit
 import Photos
-
+//☁️なんでnavigationcontrollerdelegateが必要かわからない
 class ViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
